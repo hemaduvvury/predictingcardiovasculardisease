@@ -14,21 +14,21 @@
 
 The below captures the cross validation and test results of the decision tree classifier.  The cross validation measures are based on a 5-fold stratified cross validation performed on the training data and the test scores represent the scores achieved by the model on unseen test data.  The training data represented 80% and the test data 20% of the instances in this dataset.
 
-Mean cv accuracy:	0.884155
-Mean cv recall: 	0.984711
-Mean cv: f1 0.922071
-Test accuracy:	0.871951
-Test recall:	1.0
-Test: f1 0.921348
+- Mean cv accuracy:	0.884155
+- Mean cv recall: 	0.984711
+- Mean cv: f1 0.922071
+- Test accuracy:	0.871951
+- Test recall:	1.0
+- Test: f1 0.921348
 
 
 It is worth noting that the decision tree classifier achieved a 100% recall on both the training and the test set, and additionally on the male and female subpopulations.  This is highlighted in the scores below.
 
-Model	Tuned accuracy 0.871951
-Tuned recall: 1.0
-Tuned f1:		0.921348
-Tuned recall male:	1.0
-Tuned recall female: 	1.0
+- Model	Tuned accuracy 0.871951
+- Tuned recall: 1.0
+- Tuned f1:		0.921348
+- Tuned recall male:	1.0
+- Tuned recall female: 	1.0
 
 
 Give a summary graph or metrics of how the model performs. Remember to include how you are measuring the performance and what data you analysed it on.
