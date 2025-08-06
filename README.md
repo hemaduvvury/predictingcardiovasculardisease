@@ -48,7 +48,7 @@ The optimisation of the decision tree parameters introduced an imbalance across 
 
 The optimal decision tree identified has a maximum depth of 3 and is easy to interpet with a visualisation.  It can be seen that the two input variables that are most predictive in the final classification are whether the patiens has chestpain in category 0 (i.e. typical angina) as well as their resting blood pressure.  Additionally, whether the patient has chestpain in category 2 (non anginal pain), the patient's maximum heartrate and the number of blocked major vessels identifed through fluroscopy all play a notable role in this decision tree's classification.
 
-![Screenshot](decision_tree_best.png)
+![Screenshot](decision_tree_final.png)
 
 Shap plots can help us visualise the overall impact of a given feature on the predicted classification as well as the interaction between variables.  
 
