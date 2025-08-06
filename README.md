@@ -52,7 +52,7 @@ The optimal decision tree identified has a maximum depth of 3 and is easy to int
 
 Shap plots can help us visualise the overall impact of a given feature on the predicted classification as well as the interaction between variables.  
 
-![Screenshot](shap_tree_best.png)
+![Screenshot](shap_final.png)
 
 
 - The summary plot above again highlights the key predictors we identified in the decision tree - namely, chestpain category 0, resting BP, number of major vessels colored by fluroscopy and max heart rate.
