@@ -62,7 +62,8 @@ Shap plots can help us visualise the overall impact of a given feature on the pr
 - The wide range of values in SHAP values of chestpain category 0 and resting blood pressure suggest other factors are at play when it comes to understanding the influence of these two variables.  The dependence plot below provides more insight into this.
 
 
-![Screenshot](variable_dependence_best.png)
+![Screenshot](chestpain_dependence_final.png)
+![Screenshot](bp_dependence_final.png)
 
 - From the dependence plots above, we can conclude that for a given value of category 0 chestpain, the variable that interacts most with it to predict the final outcome is the resting blood pressure (note the vertical axis on the right)  The opposite is not true - for a given value of blood pressure, the variable that interacts most with it is the present or not of category 2 chestpain.  
 
