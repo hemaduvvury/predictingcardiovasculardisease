@@ -1,4 +1,4 @@
-# PROJECT TITLE
+# Developing a machine learning model for the prediction of cardiovascular disease
 
 
 ## NON-TECHNICAL EXPLANATION OF YOUR PROJECT
