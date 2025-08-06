@@ -22,11 +22,11 @@ Two models were selected for hyperparameter optimisation.  Broadly speaking, thi
 
 The decision tree hyperparameters chosen for tuning were:
 
-max_depth':Integer(3,10)
-min_samples_leaf':Integer(2,5)
-'ccp_alpha':Real(0.0,0.03)}
-max_features':[None, 'log2', 'sqrt']
-splitter':['best','random']
+- max_depth:Integer(3,10)
+- min_samples_leaf':Integer(2,5)
+- ccp_alpha:Real(0.0,0.03)
+- max_features:[None, 'log2', 'sqrt']
+- splitter:['best','random']
 
 The max depth was constrained to a maximum of ten as one of the reasons for choosing the decision tree was to be able to inspect the entire tree visually with ease.  So, it made sense to limit the longest decision path through the tree.  Additionally, a minimum number of leaf samples was included as a hyperparameter given the possibility of decision trees overfitting to training data.  I excluded the value of 1 from the range of minimum leaf samples allowed so that we did not end up with a complex decision trees with singular data points at the decision nodes.
 
