@@ -40,7 +40,7 @@ The BayesOptCV library was used to perform hyperparameter optimisation given the
 ### The best model's performance
 
 The confusion matrix produced by the best model can be seen here.
-![Screenshot](confusion_matrix_best_model.png)
+![Screenshot](./images/confusion_matrix_best_model.png)
 
 The optimisation of the decision tree parameters introduced an imbalance across the different score types.  We achieved 100% recall during cross validation and testing at the expense of overall accuracy.  (This imbalance was even more pronounced on the support vector machine model and was one of the reasons for not choosing it).
 
@@ -49,11 +49,11 @@ The optimisation of the decision tree parameters introduced an imbalance across 
 
 The optimal decision tree identified has a maximum depth of 3 and is easy to interpet with a visualisation.  It can be seen that the two input variables that are most predictive in the final classification are whether the patiens has chestpain in category 0 (i.e. typical angina) as well as their resting blood pressure.  Additionally, whether the patient has chestpain in category 2 (non anginal pain), the patient's maximum heartrate and the number of blocked major vessels identifed through fluroscopy all play a notable role in this decision tree's classification.
 
-![Screenshot](decision_tree_final.png)
+![Screenshot](./images/decision_tree_final.png)
 
 SHAP plots can help us visualise the overall impact of a given feature on the predicted classification as well as the interaction between variables.  
 
-![Screenshot](shap_final.png)
+![Screenshot](./images/shap_final.png)
 
 
 - The summary plot above again highlights the key predictors we identified in the decision tree - namely, chestpain category 0, resting BP, number of major vessels colored by fluroscopy and max heart rate.
@@ -63,8 +63,8 @@ SHAP plots can help us visualise the overall impact of a given feature on the pr
 - The wide range of values in SHAP values of chestpain category 0 and resting blood pressure suggest other factors are at play when it comes to understanding the influence of these two variables.  The dependence plot below provides more insight into this.
 
 
-![Screenshot](chestpain_dependence_final.png)
-![Screenshot](bp_dependence_final.png)
+![Screenshot](./images/chestpain_dependence_final.png)
+![Screenshot](./images/bp_dependence_final.png)
 
 - From the dependence plots above, we can conclude that for a given value of category 0 chestpain, the variable that interacts most with it to predict the final outcome is the resting blood pressure (note the vertical axis on the right)  The opposite is not true - for a given value of blood pressure, the variable that interacts most with it is the present or not of category 2 chestpain.  
 
