@@ -68,9 +68,9 @@ SHAP plots can help us visualise the overall impact of a given feature on the pr
 
 - From the dependence plots above, we can conclude that for a given value of category 0 chestpain, the variable that interacts most with it to predict the final outcome is the resting blood pressure (note the vertical axis on the right)  The opposite is not true - for a given value of blood pressure, the variable that interacts most with it is the present or not of category 2 chestpain.  
 
-1. Low values for chest pain category 0  i.e. where it is false, seems to push the value towards positive class as can be seen by the higher SHAP values here.  High value of chest pain category 0 ( i.e. True) cause the shap values to decrease pushing towards the negative class - especially when combined with a lower blood pressure.  
+- Low values for chest pain category 0  i.e. where it is false, seems to push the value towards positive class as can be seen by the higher SHAP values here.  High value of chest pain category 0 ( i.e. True) cause the shap values to decrease pushing towards the negative class - especially when combined with a lower blood pressure.  
 
-2. There is a general positive correlation between resting blood pressure and SHAP value suggesting that higher blood pressure is correlated with postive CVD cases.  There are, however, distinct horizontal bands of blood pressure values within which the SHAP scores do not change significantly. Additionally, there is a marginal yet consistent impact on the blood pressure SHAP scores from the incidence of category 2 chest pain.  The presence of category 2 chestpain has a dampening effect on the predictive influence of blood pressure.
+- There is a general positive correlation between resting blood pressure and SHAP value suggesting that higher blood pressure is correlated with postive CVD cases.  There are, however, distinct horizontal bands of blood pressure values within which the SHAP scores do not change significantly. Additionally, there is a marginal yet consistent impact on the blood pressure SHAP scores from the incidence of category 2 chest pain.  The presence of category 2 chestpain has a dampening effect on the predictive influence of blood pressure.
 
 
 ### Takeaway for health policy makers
